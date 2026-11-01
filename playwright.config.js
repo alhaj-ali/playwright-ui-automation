@@ -28,7 +28,7 @@ const config = ({
     use: {
     navigationTimeout: 400000,
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     trace: "retain-on-failure",
     screenshot: "on",
   },
